@@ -1,0 +1,112 @@
+/***********************
+ 		  MOBILE FIRST
+***********************/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{ background: #246a6b; padding: 32px; }
+ul, li{ list-style: none;}
+
+#content{
+  background: #FFF;
+    height: 100%;
+}
+
+
+/* ======= NAVIGATION ======= */
+#logo{
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar-default{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 75px;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default .container{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default .container .navbar-collapse{
+    padding: 0;
+    padding-left: 50px;
+}
+
+.navbar-nav{
+    border: 3px solid #373636;
+}
+
+.navbar-default .navbar-nav>li>a{
+  background-image: none !important;
+  font-family: 'agendabold';
+  color: #518083;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: none !important;
+  padding-left: 26px;
+  padding-right: 26px;;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  text-decoration: underline;
+  color: #518083;
+}
+
+.navbar-default .navbar-nav>.active>a{
+    color: #0a0b0b;
+    background-color: transparent !important;
+}
+
+.navbar-default .navbar-nav>.active>a:hover{
+    color: #0a0b0b;
+}
+
+.navbar-default .navbar-nav>li .sous-menu{
+  display: none;
+  position: absolute;
+  left: 10px;
+  background: #fff;
+  border-left: 15px solid #fff;
+  border-right: 15px solid #fff;
+  padding-left: 0;
+  z-index: 1000;
+}
+
+.navbar-default .navbar-nav>li .one{ width: 172px; }
+.navbar-default .navbar-nav>li .two{ width: 196px; }
+.navbar-default .navbar-nav>li .three{ width: 125px; }
+
+.navbar-default .navbar-nav>li .sous-menu li{
+  list-style: none;
+  color: #518083;
+  border-top: 3px solid #0a0b0b;
+  padding: 14px 0;
+}
+
+.navbar-default .navbar-nav>li .sous-menu li a{
+    font-family: 'agendabold';
+    color: #518083;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav>li:hover .sous-menu{
+    display: block;
+}
