@@ -363,3 +363,75 @@ footer h3{
     font-size: 1.5em;
     text-align: center;
 }
+
+
+/************************************************
+************************************************/
+
+section{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#projet{ padding-top: 3.7em; }
+
+section .bloc{
+    padding: 0;
+    padding-left: 23px;
+    margin-bottom: 0;
+}
+
+#projet .bloc .col-lg-6, #spiruline .bloc .col-lg-12{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#spiruline .bloc .col-lg-12{
+    margin-bottom: 9.9em;
+}
+
+#projet .bloc h2, #spiruline .bloc .col-lg-12 h2{
+    font-family: 'agendaregular';
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin-bottom: 2.65em;
+}
+
+#projet .bloc h2 span, #spiruline .bloc .col-lg-12 h2 span{
+    font-family: 'agendabold';
+    text-transform: uppercase;
+}
+
+#projet .bloc p{
+    font-family: 'agendaregular';
+    font-size: 1.9em;
+    margin-bottom: 2.5em;
+}
+
+#spiruline .bloc .col-lg-12 .col-lg-2{
+    position: static;
+    top: 0;
+    padding-left: 0;
+    margin-right: 5.3em;
+    width: 21%;
+}
+
+#spiruline .bloc .col-lg-12 .col-lg-2 p{
+    font-size: 3.5em;
+    color: #a1eae6;
+}
+
+#spiruline .bloc .col-lg-12 .col-lg-10{
+    width: 71.333333%;
+}
+
+#spiruline .bloc .col-lg-12 .col-lg-10 p, #origines .bloc .col-lg-12 .col-lg-6 p{
+    font-family: 'agendaregular';
+    font-size: 2.5em;
+}
+
+#spiruline .bloc .col-lg-12 .col-lg-10 p span, #origines .bloc .col-lg-12 .col-lg-6 p span{
+    font-family: 'agendabold';
+}
+
+#origines .bloc .col-lg-12 .col-lg-6 p{ margin-left: 10px; }
