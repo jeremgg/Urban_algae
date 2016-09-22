@@ -8,12 +8,20 @@
   box-sizing: border-box;
 }
 
-body{ background: #246a6b; padding: 32px; }
+body{ background: #246a6b; padding: 32px; padding-bottom: 115px; }
 ul, li{ list-style: none;}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9{
+		margin: 0;
+		padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{ font-size: 16px;}
 
 #content{
   background: #FFF;
     height: 100%;
+		padding-top: 0.9em;
 }
 
 
@@ -27,7 +35,7 @@ ul, li{ list-style: none;}
     background: transparent;
     border: none;
     box-shadow: none;
-    margin-bottom: 75px;
+		margin-bottom: 0;
 }
 
 .container{
@@ -39,11 +47,14 @@ ul, li{ list-style: none;}
     text-align: center;
     margin: 0;
     padding: 0;
+		display: inline-block;
+		width: 100%;
 }
 
 .navbar-default .container .navbar-collapse{
     padding: 0;
-    padding-left: 50px;
+    /*padding-left: 50px;*/
+		display: inline-block !important;
 }
 
 .navbar-nav{
@@ -59,8 +70,8 @@ ul, li{ list-style: none;}
   text-transform: uppercase;
   text-decoration: none;
   box-shadow: none !important;
-  padding-left: 26px;
-  padding-right: 26px;;
+  padding-left: 1.36em;
+  padding-right: 1.36em;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -109,4 +120,192 @@ ul, li{ list-style: none;}
 }
 .navbar-default .navbar-nav>li:hover .sous-menu{
     display: block;
+}
+
+
+
+
+
+
+
+
+/* ======= Blocs 1 ======= */
+
+#intro{
+		width: 1170px;
+		margin: 0 auto;
+		padding-top: 3em;
+}
+
+.row{
+    margin: 0;
+}
+
+.row .col-lg-12{
+    padding: 0;
+    margin-bottom: 130px
+}
+
+.row .col-lg-12 .col-lg-9 img{
+    width: 100%;
+}
+
+.row .col-lg-12 .blocT{
+    width: 370px;
+    background: #FFF;
+    position: absolute;
+    right: 6em;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 1.5em;
+		padding-bottom: 1.1em;
+		margin-bottom: 65px;
+}
+
+.row .col-lg-12 .blocT h2{
+    font-family: 'agendaregular';
+    text-transform: uppercase;
+		font-size: 2.6em;
+}
+
+.row .col-lg-12 .blocT h2 span{
+    font-family: 'agendabold';
+    text-transform: uppercase;
+}
+
+.row .col-lg-12 .col-lg-3{
+		position: relative;
+		top: 27.3em;
+		padding-left: 1.5em;
+}
+
+.row .col-lg-12 .col-lg-3 img{
+    width: 100%;
+}
+
+.row .col-lg-12 .col-lg-3 .blocT.one{
+    width: 268.5px;
+    background: #FFF;
+    position: absolute;
+    right: 0em;
+    top: 20.83em;
+    transform: translateY(-50%);
+    padding: 0;
+		margin-bottom: 0;
+		padding-top: 1em;
+}
+
+.row .col-lg-12 .col-lg-3 .blocT.one h2{
+    font-family: 'agendaregular';
+    text-transform: uppercase;
+		font-size: 1.9em;
+}
+
+.row .col-lg-12 .col-lg-3 .blocT.one h2 span{
+    font-family: 'agendabold';
+    text-transform: uppercase;
+}
+
+
+/* ======= Blocs 2 ======= */
+
+.row .col-lg-12 > .col-lg-4{
+    margin-right: 1.5em;
+}
+
+.row .col-lg-12 > .col-lg-4 > img{
+    width: 100%;
+}
+
+.row .col-lg-12 > .col-lg-4:nth-child(2) h2{
+    font-family: 'agendaregular';
+    text-transform: uppercase;
+    font-size: 2.1em;
+}
+
+.row .col-lg-12 > .col-lg-4:nth-child(2) h2 span{
+    font-family: 'agendabold';
+    text-transform: uppercase;
+}
+
+.row .col-lg-12 > .col-lg-4:nth-child(2) .col-lg-4{
+    margin-left: 5.8em;
+    margin-top: 270px;
+}
+
+.row .col-lg-12 > .col-lg-4:nth-child(3){
+    margin-right: 0;
+    width: 230px;
+    margin-top: 530px;
+    margin-left: 25px;
+}
+
+.row .col-lg-12 > .col-lg-4:nth-child(3) h2{
+    font-family: 'agendaregular';
+    text-transform: uppercase;
+    font-size: 2.1em;
+}
+
+.row .col-lg-12 > .col-lg-4:nth-child(3) h2 span{
+    font-family: 'agendabold';
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+#partenaires{
+		width: 1170px;
+    height: 704px;
+		margin: 0 auto;
+		padding-top: 3em;
+    background: url("../images/bg.jpg") no-repeat;
+}
+
+#partenaires .col-lg-5 h2{
+    font-family: 'agendaregular';
+    text-transform: uppercase;
+    font-size: 1.6em;
+    text-align: right;
+    padding-right: 1.3em;
+}
+
+#partenaires .col-lg-5 h2 span{
+    font-family: 'agendabold';
+}
+
+#partenaires .col-lg-5 .rs .social{
+    display: block;
+    border-radius: 100%;
+    background: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    border: 4px solid #000;
+    margin-bottom: 1.1em;
+}
+
+#partenaires > .col-lg-6{
+    margin-left: 330px;
+}
+
+#partenaires > .col-lg-6 h2{
+    font-family: 'agendabold';
+    text-transform: uppercase;
+    font-size: 2.1em;
+    color: #000;
+}
+
+#partenaires > .col-lg-6 .partenaires{
+    background: #000;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 20px;
 }
