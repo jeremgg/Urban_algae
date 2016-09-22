@@ -8,7 +8,15 @@
   box-sizing: border-box;
 }
 
-body{ background: #246a6b; padding: 32px; padding-bottom: 115px; }
+body{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#287372+0,48bbab+100 */
+  background: #287372; /* Old browsers */
+  background: -moz-linear-gradient(top,  #287372 0%, #48bbab 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #287372 0%,#48bbab 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #287372 0%,#48bbab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#287372', endColorstr='#48bbab',GradientType=0 ); /* IE6-9 */
+  padding-bottom: 0; }
+
 ul, li{ list-style: none;}
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9{
@@ -22,6 +30,8 @@ h1, h2, h3, h4, h5, h6{ font-size: 16px;}
   background: #FFF;
     height: 100%;
 		padding-top: 0.9em;
+    margin: 32px;
+    margin-bottom: 0;
 }
 
 
@@ -143,7 +153,11 @@ h1, h2, h3, h4, h5, h6{ font-size: 16px;}
 
 .row .col-lg-12{
     padding: 0;
-    margin-bottom: 130px
+    margin-bottom: 130px;
+}
+
+.row .col-lg-12:nth-child(2){
+    margin-bottom: 0;
 }
 
 .row .col-lg-12 .col-lg-9 img{
@@ -181,6 +195,7 @@ h1, h2, h3, h4, h5, h6{ font-size: 16px;}
 
 .row .col-lg-12 .col-lg-3 img{
     width: 100%;
+    height: 379px;
 }
 
 .row .col-lg-12 .col-lg-3 .blocT.one{
@@ -188,7 +203,7 @@ h1, h2, h3, h4, h5, h6{ font-size: 16px;}
     background: #FFF;
     position: absolute;
     right: 0em;
-    top: 20.83em;
+    top: 27.9em;
     transform: translateY(-50%);
     padding: 0;
 		margin-bottom: 0;
@@ -261,23 +276,29 @@ h1, h2, h3, h4, h5, h6{ font-size: 16px;}
 		width: 1170px;
     height: 704px;
 		margin: 0 auto;
-		padding-top: 3em;
     background: url("../images/bg.jpg") no-repeat;
+    position: relative;
 }
 
-#partenaires .col-lg-5 h2{
+#partenaires .col-lg-12{
+  text-align: center;
+  position: absolute;
+  top: 115px;
+}
+
+#partenaires .col-lg-12 h2{
     font-family: 'agendaregular';
     text-transform: uppercase;
     font-size: 1.6em;
     text-align: right;
-    padding-right: 1.3em;
+    padding-right: 0.9em;
 }
 
-#partenaires .col-lg-5 h2 span{
+#partenaires .col-lg-12 h2 span{
     font-family: 'agendabold';
 }
 
-#partenaires .col-lg-5 .rs .social{
+#partenaires .col-lg-12 .rs .social{
     display: block;
     border-radius: 100%;
     background: #fff;
@@ -290,8 +311,14 @@ h1, h2, h3, h4, h5, h6{ font-size: 16px;}
     margin-bottom: 1.1em;
 }
 
+#partenaires .col-lg-12 .rs .social:nth-child(3){
+    margin-bottom: 0;
+}
+
 #partenaires > .col-lg-6{
     margin-left: 330px;
+    position: absolute;
+    bottom: 195px;
 }
 
 #partenaires > .col-lg-6 h2{
@@ -306,6 +333,33 @@ h1, h2, h3, h4, h5, h6{ font-size: 16px;}
     width: 90px;
     height: 90px;
     display: inline-block;
-    margin: 0 10px;
-    margin-top: 20px;
+    margin: 20px 10px 0 0;
+}
+
+#partenaires > .col-lg-6 > .partenaires:nth-child(1){
+    margin-left: 0;
+}
+
+
+
+footer{
+    width: 1170px;
+    margin: 0 auto;
+    height: 115px;
+    line-height: 115px;
+    overflow: hidden;
+    position: relative;
+}
+
+footer .col-lg-2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-28%);
+}
+
+footer h3{
+    font-family: 'agendaregular';
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
 }
