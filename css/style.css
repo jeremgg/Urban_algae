@@ -27,10 +27,10 @@ ul, li{ list-style: none;}
 h1, h2, h3, h4, h5, h6{ font-size: 16px;}
 
 #content{
-  background: #FFF;
+    background: #FFF;
     height: 100%;
-		padding-top: 0.9em;
-    margin: 32px;
+		padding: 1.3em;
+    margin: 2.5%;
     margin-bottom: 0;
 }
 
@@ -80,8 +80,8 @@ h1, h2, h3, h4, h5, h6{ font-size: 16px;}
   text-transform: uppercase;
   text-decoration: none;
   box-shadow: none !important;
-  padding-left: 1.36em;
-  padding-right: 1.36em;
+  padding-left: 3.1em;
+  padding-right: 3.1em;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6{ font-size: 16px;}
 #intro{
 		width: 1170px;
 		margin: 0 auto;
-		padding-top: 3em;
+		padding-top: 2.8em;
 }
 
 .row{
@@ -168,11 +168,11 @@ h1, h2, h3, h4, h5, h6{ font-size: 16px;}
     width: 370px;
     background: #FFF;
     position: absolute;
-    right: 6em;
+    right: -12em;
     top: 50%;
     transform: translateY(-50%);
-    padding: 1.5em;
-		padding-bottom: 1.1em;
+    padding: 1.5%;
+		padding-bottom: 1.1%;
 		margin-bottom: 65px;
 }
 
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6{ font-size: 16px;}
     background: #FFF;
     position: absolute;
     right: 0em;
-    top: 27.9em;
+    margin-top: : 27.9%;
     transform: translateY(-50%);
     padding: 0;
 		margin-bottom: 0;
@@ -425,13 +425,69 @@ section .bloc{
     width: 71.333333%;
 }
 
-#spiruline .bloc .col-lg-12 .col-lg-10 p, #origines .bloc .col-lg-12 .col-lg-6 p{
+#spiruline .bloc .col-lg-12 .col-lg-10 p, #origines .bloc .col-lg-12 .col-lg-6 p,
+#cuisine .bloc .col-lg-12 .col-lg-6 p{
     font-family: 'agendaregular';
     font-size: 2.5em;
 }
 
-#spiruline .bloc .col-lg-12 .col-lg-10 p span, #origines .bloc .col-lg-12 .col-lg-6 p span{
+#spiruline .bloc .col-lg-12 .col-lg-10 p span, #origines .bloc .col-lg-12 .col-lg-6 p span,
+#cuisine .bloc .col-lg-12 .col-lg-6 p span{
     font-family: 'agendabold';
 }
 
-#origines .bloc .col-lg-12 .col-lg-6 p{ margin-left: 10px; }
+#origines .bloc .col-lg-12 .col-lg-6, #cuisine .bloc .col-lg-12 .col-lg-6{ position: relative;}
+#origines .bloc .col-lg-12 .col-lg-6 p, #cuisine .bloc .col-lg-12 .col-lg-6 p{ margin-left: 10px; }
+
+#origines .bloc .col-lg-12 .col-lg-6 h3, #cuisine .bloc .col-lg-12 .col-lg-6 h3{
+    font-family: 'agendabold';
+    font-size: 3.7em;
+    color: #88bcb6;
+    background: #fff;
+    padding: 11px 25px 25px 25px;
+    margin-left: 110px;
+    position: absolute;
+    top: 20px;
+}
+
+#cuisine .bloc .col-lg-12 .col-lg-6 h3{
+    color: #4f7f80;
+    right: 0;
+    margin-left: 0;
+    width: 360px;
+}
+
+#futur .bloc .col-lg-12{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#futur .bloc .col-lg-12{
+    margin-bottom: 9.9em;
+}
+
+#futur .bloc .col-lg-12 .col-lg-2{
+    position: static;
+    top: 0;
+    padding-left: 0;
+    margin-right: 5.3em;
+    width: 24%;
+}
+
+#futur .bloc .col-lg-12 .col-lg-2 p{
+    font-size: 3.5em;
+    color: #4f7f80;
+}
+
+#futur .bloc .col-lg-12 .col-lg-10{
+    width: 67.333333%;
+}
+
+#futur .bloc .col-lg-12 .col-lg-10 p{
+    font-family: 'agendaregular';
+    font-size: 2.5em;
+}
+
+#futur .bloc .col-lg-12 .col-lg-10 p span{
+    font-family: 'agendabold';
+}
