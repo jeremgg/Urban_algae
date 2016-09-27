@@ -1,0 +1,81 @@
+@media screen and (max-width:768px){
+    #content{ height: auto; }
+
+    .navbar-nav{ display: block;  }
+
+    .title-content h2{ font-size: 1.7em; }
+
+    #intro .col-lg-8{ margin-top: 6.3%); }
+    #intro .col-lg-8 .title-content{ left: 55%; right: 0; top: 87%; transform: translateX(-50%) translateY(0);}
+
+    #spiruline{  position: static; margin-bottom: 3%; margin-top: calc( (105px / 2) + 1.3%); }
+    #spiruline .col-lg-4{  position: relative; padding: 0; }
+    #spiruline .col-lg-4 .title-content{  position: absolute; top: 50%; right: -50%; transform: translateY(-50%); padding: 1.5% 2%; margin-right: 0;}
+
+    #histoire .col-lg-4 .title-content{  position: static;}
+    #histoire .col-xs-5{ display: block; position: absolute; right: 0; bottom: 70px; text-align: center; margin-top: 20px;}
+    #histoire .col-xs-5 .title-content{ display: block; }
+    #histoire .col-xs-5 .rs{ display: inline-block; }
+    #histoire .col-lg-4 .title-content{ padding: 1.5% 2%; padding-left: 0; }
+
+    #projet{  position: static;}
+    #projet .col-lg-4{  position: relative; top: 0; }
+    #projet .col-lg-4 img, #projet .col-lg-4 .title-content{ margin-left: 0; }
+    #projet .col-lg-4 img{ margin-left: 200px;}
+    #projet .col-lg-4 .title-content{ right: 43%; padding: 1.5% 2%; }
+
+    #contenuB{ top: 0; background: transparent; height: 150px; height: 210px;}
+    #contenuB #social{ display: none; }
+    #partenairs .col-lg-6{ bottom: 25px;}
+    #partenairs .col-lg-6 .bloc .partenaires:last-child{ margin-right: 0; }
+    #partenairs .col-xs-10{ width: 81%; top: 30px;}
+
+    footer .col-lg-12{ display: none; }
+}
+
+@media screen and (min-width:768px){
+    #spiruline{ top: 39%; }
+    #spiruline .col-lg-4{  padding-left: 2.35%; }
+    #histoire .col-lg-4 .title-content{ right: -92%; }
+    #histoire .col-lg-4 .title-content{ padding: 5.35% 3%; }
+}
+
+
+@media screen and (min-width:1200px){
+    #contenu, #contenuB, footer{ width: 1170px; margin: 0 auto; }
+    .row .col-lg-8 .title-content{ padding: 20px 25px; }
+    #intro .col-lg-8{ margin-bottom: 60px; }
+    #spiruline{ top: 445px; }
+    #spiruline .col-lg-4{ padding-left: 25px; }
+    #spiruline .col-lg-4 .title-content{ padding-top: 25px; }
+    #histoire .col-lg-4 .title-content{ right: -83%; }
+    #projet .col-lg-4{ top: -110px; }
+    #projet .col-lg-4 img{ padding-left: 25px; }
+    #projet .col-lg-4 .title-content{ right: -66%; }
+    #partenairs .col-lg-6{ bottom: 190px; }
+    #content{ height: 2391px; }
+    #content-recettes{ height: auto; }
+    #contenuB{ top: 382px; }
+    .box{ width: 1170px; margin: 0 auto; }
+    #recette-1 .col-lg-5{ width: 37.666667%; }
+}
+
+@media screen and (min-width:1400px){
+    .box{ width: 1170px; margin: 0 auto; }
+}
+
+
+
+@media screen and (min-width:992px)and (max-width:1200px){
+    .row .col-lg-8 .title-content{ padding: 2% 2.5%; }
+    #projet .col-lg-4{ top: -90px; }
+    #projet .col-lg-4 .title-content{ padding: 2% 2.5%;, right: -68%; }
+}
+
+
+
+@media screen and (min-width:768px)and (max-width:992px){
+    .row .col-lg-8 .title-content{ padding: 1.5% 2%; }
+    #projet .col-lg-4{ top: -80px; }
+    #projet .col-lg-4 .title-content{ padding: 1.5% 2%; right: -80%; }
+}
